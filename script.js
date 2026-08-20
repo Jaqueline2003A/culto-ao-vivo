@@ -234,14 +234,11 @@ botaoYoutube.addEventListener(
     "click",
     function() {
 
-        window.open(
-            LINK_DA_LIVE,
-            "_blank"
-        );
+        window.location.href =
+            LINK_DA_LIVE;
 
     }
 );
-
 
 // =====================================================
 // ABRIR ADMIN
