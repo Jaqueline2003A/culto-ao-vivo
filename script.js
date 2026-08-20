@@ -14,7 +14,7 @@ const LINK_DA_LIVE =
 // Depois vamos colocar aqui a URL da planilha.
 // Por enquanto deixe vazio.
 
-const URL_GOOGLE_SHEETS = "https://script.google.com/macros/s/AKfycbzjayDIDyksRYNXSiRF8j_A6XF5Kkfk-BdGSPlpnvBv_2X1NwAjomXoC1Oh2BCgNA6x/exec";
+const URL_GOOGLE_SHEETS = "https://script.google.com/macros/s/AKfycbz9AXczD15bQbNWlkxiZAq67eD80T586rGIHVobmo1CiOb0ay63s88tsSkH3pMFsdo4/exec";
 
 
 // =====================================================
