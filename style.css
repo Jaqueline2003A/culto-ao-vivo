@@ -68,27 +68,19 @@ body {
 ========================= */
 
 .logo {
-    width: 75px;
-
-    height: 75px;
-
+    width: 120px;            /* Aumentado um pouco para dar destaque à imagem */
+    height: auto;           /* Mantém a proporção original */
     margin: 0 auto 20px;
-
-    border-radius: 50%;
-
     display: flex;
-
     justify-content: center;
-
     align-items: center;
-
-    background: #17202a;
-
-    color: white;
-
-    font-size: 34px;
 }
 
+.logo img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;     /* Evita distorções */
+}
 
 /* =========================
    TAG
