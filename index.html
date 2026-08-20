@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Culto ao Vivo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- =========================
+             PÁGINA PRINCIPAL
+        ========================== -->
+
+        <section class="card" id="paginaEntrada">
+
+            <div class="logo">
+                ✦
+            </div>
+
+            <span class="tag">
+                TRANSMISSÃO AO VIVO
+            </span>
+
+            <h1>
+                Culto ao Vivo
+            </h1>
+
+            <p class="subtitulo">
+                Seja muito bem-vindo!
+            </p>
+
+            <p class="descricao">
+                Informe seu nome para participar
+                da nossa transmissão.
+            </p>
+
+
+            <form id="formulario">
+
+                <label for="nome">
+                    Nome completo
+                </label>
+
+                <input
+                    type="text"
+                    id="nome"
+                    placeholder="Digite seu nome"
+                    autocomplete="name"
+                    required
+                >
+
+                <button type="submit">
+                    Entrar na Live
+                </button>
+
+            </form>
+
+
+            <p class="mensagem">
+                Ao continuar, você será direcionado
+                para a transmissão no YouTube.
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             PÁGINA DE SUCESSO
+        ========================== -->
+
+        <section
+            class="card sucesso hidden"
+            id="paginaSucesso">
+
+            <div class="iconeSucesso">
+                ✓
+            </div>
+
+            <h1>
+                Tudo certo!
+            </h1>
+
+            <p>
+                Seu acesso foi registrado.
+            </p>
+
+            <p class="nomeConfirmacao"
+               id="nomeConfirmacao">
+            </p>
+
+            <button
+                id="botaoYoutube">
+                Assistir à Live
+            </button>
+
+            <p class="mensagem">
+                Que Deus abençoe você!
+            </p>
+
+        </section>
+
+
+        <!-- =========================
+             ÁREA ADMINISTRATIVA
+        ========================== -->
+
+        <section
+            class="card admin hidden"
+            id="paginaAdmin">
+
+            <h1>
+                Acessos
+            </h1>
+
+            <p class="descricao">
+                Participantes registrados nesta transmissão.
+            </p>
+
+            <div class="contador">
+
+                <strong id="total">
+                    0
+                </strong>
+
+                <span>
+                    pessoas registradas
+                </span>
+
+            </div>
+
+            <div class="tabelaContainer">
+
+                <table>
+
+                    <thead>
+
+                        <tr>
+                            <th>Nome</th>
+                            <th>Data</th>
+                            <th>Hora</th>
+                            <th>ID</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody id="tabelaRegistros">
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <button
+                class="botaoSecundario"
+                id="botaoVoltar">
+                Voltar
+            </button>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- Área administrativa discreta -->
+
+    <button
+        class="adminLink"
+        id="abrirAdmin">
+        Área administrativa
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
