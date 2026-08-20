@@ -6,7 +6,7 @@
 // LINK DA LIVE DO YOUTUBE
 
 const LINK_DA_LIVE =
-    "https://youtu.be/kUSGZKzUP5Y?si=Dmf1ThJ1P5Lhnpz2";
+    "https://www.youtube.com/live/J6A4cvFTve4?si=8U1lqS3pfybmnrCl";
 
 
 // URL DO GOOGLE APPS SCRIPT
